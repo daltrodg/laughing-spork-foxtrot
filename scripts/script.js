@@ -13,7 +13,7 @@ $(document).ready(function () {
   
       $("#coolFactsOutput").html(number(userNumber));
       $("#coolFactsOutputs").html(getPersonalFact(userNumber));
-      $('#coolFactsOutputs').css('color', 'red');
+      $('#coolFactsOutputs').css('color', 'white');
     });
   });
   
