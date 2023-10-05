@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Dalton's Code Stuff</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1"><link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css'>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link rel="stylesheet" href="styles/style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+
+<!-- Nav Bar -->
+
+    <nav class="navbar navbar-expand-sm navbar-light bg-primary" id="navbar">
+      <a href="#" class="navbar-brand mb-0 h1"> Dalton Rodgers </a>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a href="https://github.com/daltrodg" target="_blank" class="nav-link"> GitHub </a>
+          </li>
+          <li class="nav-item active">
+            <a href="#" class="nav-link"> See The Code </a>
+          </li>
+          <li class="nav-item active">
+            <a href="#" class="nav-link"> Check the pages validity </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+
+
+
+<!-- Div that contains a picture of myself. -->
+  <div id="imgBox">
+    <img id="picOfMe" src="img/pictureOfMe.jpg" alt="A Picture of Me">
+  </div>
+
+<!-- Main Block of Information -->
+  <div id="majorInfo">
+    <p><strong>Education </strong><br><br>	
+      <strong>Bachelor of Science</strong>, 2019-2024 <br>
+      University of North Alabama, Florence, AL <br>
+      Major: Infomation Technology <br>
+      Concentration: CyberSecurity <br>
+      <br>
+      <br>
+      <strong>Work Expirence</strong> <br>
+      <strong>The Pie Factory: Florence, AL</strong> September 2019 - current <br> 
+      Kitchen Employee <br>
+      <br>
+      <br>
+      <strong>Information Technology and Web Development Expirence</strong><br>
+      <ul>
+        <li>Python</li>
+        <li>JavaScript</li>
+        <li>jQuery</li>
+        <li>Bootstrap 5</li>
+        <li>mySQL</li>
+        <li>SSH</li>
+        <li>DNS</li>
+        <li>Linux Command Line</li>
+      </ul>
+    </p>
+  </div>
+
+  <!-- Div With all of my links inside of them. -->
+  <div id="linkDiv" class="offset-md-2 col-md-8 mx-auto text-center">
+    <h2>Links to My Stuff</h2>
+    <a href="https://github.com/daltrodg" target="_blank" class="btn btn-warning">GitHub</a>
+    <a href="https://codepen.io/daltrodg" target="_blank" class="btn btn-warning">CodePen</a>
+    <a href="https://www.linkedin.com/in/dalton-rodgers-b6a437294/" target="_blank" class="btn btn-warning">LinkedIn</a>
+    <br>
+    <br>
+
+    <h2>Links to My Projects</h2>
+    <a href="https://daltrodg.github.io/miniature-octo-palm-alpha/" target="_blank" class="btn btn-warning">Alpha</a>
+    <a href="https://daltrodg.github.io/probable-winner-bravo/" target="_blank" class="btn btn-warning">Beta</a>
+    <a href="https://daltrodg.github.io/special-guide-charlie/" target="_blank" class="btn btn-warning">Charlie</a>
+    <a href="https://daltrodg.github.io/curly-disco-delta/" target="_blank" class="btn btn-warning">Delta</a>
+    <a href="https://daltrodg.github.io/super-duper-echo/" target="_blank" class="btn btn-warning">Echo</a>
+
+  </div>
+  <!-- BootStrap Card -->
+  <div class="card" style="width:400px;">
+    <img class="card-img-top" src="https://media.istockphoto.com/id/1248542684/vector/abstract-blurred-colorful-background.jpg?s=612x612&w=0&k=20&c=6aJX8oyUBsSBZFQUCJDP7KZ1y4vrf-wEH_SJsuq7B5I=" alt="Card image">
+    <div class="card-img-overlay">
+      <h4 class="card-title">My Hobbies</h4>
+      <p class="card-text" id="cardSubTitle">These are the Things I Enjoy Doing</p>
+
+      <!-- Music List in BS Card-->
+      <p class="card-text musicListItems">Music</p>
+      <ul class="card-text">
+        <li class="musicListItems">MegaDeth</li>
+        <li class="musicListItems">Iron Maiden</li>
+        <li class="musicListItems">Queensryche</li>
+        <li class="musicListItems">Metallica</li>
+        <li class="musicListItems">Pantera</li>
+      </ul>
+
+      <!-- Second List in BS Card -->
+      <p class="card-text hobbiesList">Pass Time Activities</p>
+      <ul class="card-text">
+        <li class="hobbiesList">Playing Vidoe Games</li>
+        <li class="hobbiesList">Learning IT</li>
+        <li class="hobbiesList">Talking to My Close Friends</li>
+        <li class="hobbiesList">Trying New and Good Food</li>
+      </ul>
+    </div>
+  </div>
+<div class="row">
+  <div class="factGame offset-md-8 col-md-10 mx-auto text-center">
+    <div class="card">
+      <div class="card-body" style="background-color:darkblue">
+        <h3 class="card-title" style="color: white">Extra facts about me!</h3>
+        <p class="card-text" style="color: white">Enter a number between 1-10 to get an extra fact about me.</p>
+      
+        <input type="text" id="userNumber" class="form-control" name="useNumber" style="width: 250px, center;">
+        <br>
+        <button id="btnMyFacts" class="btn btn-primary">Learn a fact about me!</button>
+        <span id="coolFactsOutput"> </span>
+        <span id="coolFactsOutputs"> </span>
+   
+    </div>
+    </div>
+    </div>
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js'></script>
+  <script src="scripts/script.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
